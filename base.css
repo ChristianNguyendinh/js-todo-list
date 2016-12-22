@@ -1,0 +1,11 @@
+html, body {
+	width:100%;
+	height:100%;
+	background-color: #c3c3c3;
+}
+
+#main {
+	width:50%;
+	height:50%;
+	background-color: #0f0;
+}
