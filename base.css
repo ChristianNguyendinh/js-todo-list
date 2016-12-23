@@ -1,25 +1,36 @@
 html, body {
 	width:100%;
 	height:100%;
-	background-color: #c3c3c3;
+	background-color: #fff;
 }
 
 input[type=text] {
-	width:90%;
-	height:10%;
+	margin-top:5px;
+	margin-left:15px;
+	width:85%;
+	height:50px;
 	font-size:20px;
 	border:1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
-
 	display:block;
 }
 
+button {
+	width:5%;
+    color:white;
+    padding:14px;
+    margin:2px;
+    border:none;
+    box-shadow: -3px 3px #222;
+    border-radius:5px;
+    cursor:pointer;
+}
+
 .todo-item {
-	background-color: #f3f3f3;
+	background-color: #fff;
 	width:100%;
 	height:50px;
-	border-bottom: 1px solid #000;
 	font-size:20px;
 	position:relative;
 }
@@ -30,26 +41,55 @@ input[type=text] {
 	margin:0px;
 	padding:0px;
 	display:inline-block;
+	
 }
 
 .checkbox {
 	display:inline-block;
 }
 
+.text-div {
+	width:90%;
+	height:80%;
+	position:absolute;
+	bottom:0px;
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	border-bottom: 1px solid #000;
+	bottom:20%;
+}
+
 #main {
-	width:70%;
-	height:50%;
+	width:80%;
+	height:100%;
+	margin-left:10%;
 	background-color: #fff;
 }
 
+#title {
+	margin-left:45%;
+}
+
 #add {
+	background-color: #20a019;
 	float: right;
+}
+
+#add:hover {
+	background-color: #6f6;
 }
 
 #clear {
+	background-color: #d32329;
 	float: right;
 }
 
+#clear:hover {
+	background-color: #f66;
+}
+
 #errorBox {
+	margin: 10px 25px;
 	color:red;
 }
